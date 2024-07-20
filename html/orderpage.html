@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <style>
+        body{
+            background-image: url(./../images/khana2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: cover;
+        }
+        .div_form
+        {
+            position: relative;
+            top: 30vh;
+            left: 30vw;
+        }
+        .search{
+            position: absolute;
+            left: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_form">
+        <form >
+        <label> 
+            Name:
+            <input type="text" class="search" placeholder="Enter your name">
+        </label><br><br>
+    
+        <label> 
+            Phone Number:
+            <input type="number" name="number" class="search">
+        </label><br><br>
+    
+        <label> 
+            Email id:
+            <input type="email" name="email" class="search" >
+        </label><br><br>
+    
+        <label> 
+            Time of delivery:
+            <input type="time" class="search"
+            >
+        </label><br><br>
+    
+        <label> 
+            Date of Delivery:
+            <input type="date" name="date" class="search">
+        </label><br><br>
+    
+        <label>
+            type of food:  
+            <select name="type of food" required class="search">
+                <option value="choose your option" disabled selected hidden>choose your type</option>
+            <option value="veg">veg</option>
+            <option value="non">non-veg</option>
+        
+            </select>
+         </label><br><br>
+    
+         <label>
+            <label> 
+                <input type="submit" name="submit">
+    
+            </label>
+         </label>
+    
+         <label> 
+            <input type="reset">
+         </label>
+         </form>
+         </div>
+    </body>
+    
+</html>
